@@ -15,7 +15,7 @@
 	<packaging>jar</packaging>
 =======
 	<version>2.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 >>>>>>> 860dfe9acb33b27f49e763d12e7539169c4534e8
 	<name>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</name>
 	<description>Timesheet-spring-boot-core-data-jpa-mvc-REST-1</description>
