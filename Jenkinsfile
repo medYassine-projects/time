@@ -1,7 +1,18 @@
 pipeline {
     agent any
 	
+environment { 
+        POM = readMavenPom(file:'pom.xml')
+        ARTIFACTID=POM.getArtifactId()
+        ARTIFACT_VERSION = POM.getVersion()
+      
+    }
 
+    tools {
+        maven 'maven'
+        jdk 'jdk'
+		
+    }
 
  
 	
